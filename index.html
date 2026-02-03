@@ -6,7 +6,7 @@
     <title>Cursor</title>
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link
@@ -16,11 +16,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-    />
     <link
       rel="shortcut icon"
       href="./assets/APP_ICON_2D_DARK.png"
@@ -29,46 +24,52 @@
   </head>
 
   <body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-      <div class="child-nav">
+    <nav class="nav">
+      <div class="nav-brand">
         <a href="#">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cursor_logo.svg/960px-Cursor_logo.svg.png"
-            alt="Logo"
-            class="logosrcset"
+            alt="Cursor Logo"
+            class="logo"
           />
         </a>
       </div>
 
-      <!-- Middle Links -->
-      <ul class="child-nav">
-        <li><a href="#" class="link mid-btn"> Features</a></li>
-        <li><a href="#" class="link mid-btn"> Enterprise</a></li>
-        <li><a href="#" class="link mid-btn"> Pricing</a></li>
-        <li><a href="#" class="link mid-btn"> Resources</a></li>
+      <ul class="nav-links">
+        <li><a href="#" class="nav-link">Features</a></li>
+        <li><a href="#" class="nav-link">Enterprise</a></li>
+        <li><a href="#" class="nav-link">Pricing</a></li>
+        <li><a href="#" class="nav-link">Resources</a></li>
       </ul>
 
-      <!-- Right Links -->
-      <ul class="child-nav">
-        <li><a href="#" class="link btn Signin"> Sign in</a></li>
-        <li><a href="#" class="link btn download">Download</a></li>
-      </ul>
+      <div class="nav-actions">
+        <a href="#" class="btn btn-ghost">Sign in</a>
+        <a href="#" class="btn btn-primary">Download</a>
+      </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <p>
+        <p class="hero-text">
           Built to make you extraordinarily productive, Cursor is the best way
           to code with AI.
         </p>
-        <div class="hero-buttons">
-          <a href="#" class="btn download-icon"
-            >Download for Windows <i class="fa-solid fa-arrow-down"></i>
+        <div class="hero-cta">
+          <a href="#" class="btn btn-download">
+            Download for Windows <i class="fa-solid fa-arrow-down"></i>
           </a>
         </div>
       </div>
+      <div class="hero-image-section">
+        <img
+          src="./assets/hero-section-image.png"
+          alt="Hero Image"
+          class="hero-img"
+        />
+      </div>
     </section>
+
+    <!-- Footer Section started -->
+    <footer class="footer"></footer>
   </body>
 </html>

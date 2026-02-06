@@ -242,12 +242,12 @@ body {
     gap: 1rem;
     padding: 2rem;
     width: 95%;
+    max-height: 100%;
     margin: auto;
     border-radius: 10px;
     align-items: center;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
     background: #1D1B15;
-
 
 }
 
@@ -261,7 +261,7 @@ body {
 }
 
 .feature-text h2 {
-    font-size: 36px;
+    font-size: 20px;
     color: #ffffff;
     margin-bottom: 16px;
     font-weight: 600;
@@ -290,6 +290,72 @@ body {
     width: 100%;
     border-radius: 14px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+.testimonials {
+    background: #14120B;
+    padding: 100px 6%;
+}
+
+.testimonials-title {
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 500;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.testimonial-card {
+    background: #1d1b15;
+    border: 1px solid #24221c;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-card p {
+    color: #e5e7eb;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author img {
+    width: 36px;
+    height: 36px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.author strong {
+    color: #ffffff;
+    font-size: 14px;
+    display: block;
+}
+
+.author span {
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.testimonial-card:hover {
+    border-color: #2f2f2f;
+    transform: translateY(-4px);
+    transition: 0.3s ease;
 }
 
 
